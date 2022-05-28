@@ -1,0 +1,48 @@
+.body{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-content:center;
+}
+
+.grid{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-content:center;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+.card{
+    display:flex;
+    background-color:white;
+    flex-direction:column;
+    flex:auto;
+    border:solid aquamarine;
+    /* height:width; */
+    justify-content:center;
+    align-items:center;
+    aspect-ratio:1/1;
+}
+
+.flipped{
+    display:flex;
+    background-color:fuchsia;
+}
+
+.button{
+    display:flex;
+    background-color:orange;
+    border:solid red;
+    justify-items:center;
+    align-items:center;
+    justify-self:center;
+    aspect-ratio:5/3;
+}
